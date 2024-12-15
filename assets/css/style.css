@@ -86,6 +86,22 @@ nav{
     background-color: white;
 }
 
+.tarjeta-2{
+    margin-top: 15px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid rgb(188, 180, 180);
+    box-shadow: 5px 5px rgb(246, 247, 247);
+    background-color: white;
+    display: none;
+    }
+
+
 .imagen-tarjeta{
     width: 200px;
     height: 200px;
@@ -195,7 +211,20 @@ footer{background-color: rgb(49, 49, 94);
             "footer footer";
             grid-template-columns: 25% auto;
             min-height: 100vh;
-            background-color: rgb(208, 107, 107);}
+            }
+
+.tarjeta-2{
+    border: 0;
+        background-color: white;
+        width: 200px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(188, 180, 180);
+        box-shadow: 5px 5px rgb(246, 247, 247);                
+        display: flex;
+    }
+            
     
 .caja-combo
             {
@@ -293,6 +322,18 @@ body {
                 width: 400px;
             }
     
+.tarjeta-2{
+    border: 0;
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(188, 180, 180);
+    box-shadow: 5px 5px rgb(246, 247, 247);
+    display: flex;
+          }
+            
 .lista-menu{
                 padding-top: 30px;
                 display: flex;
